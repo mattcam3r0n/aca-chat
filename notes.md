@@ -1,3 +1,5 @@
+Notes on errors I found...
+
 * no package.json. had to...
   * npm init
   * npm i express body-parser
@@ -12,7 +14,3 @@
 * typo in app.post('/clients') function. "clientID" in res.send(clientID.toString()); should be "clientId" (little d).
 * in chat.js, it should be window.onload = <function>, not window.onload(<function>). this was giving a "window.onload is not a function" error, because the code was trying to _call_ window.onload, rather than assigning a function to it _to be called_ when the document finishes loading.
 
-
-* you have to explicit
-* window.onload() POST call fails...
-  * 
