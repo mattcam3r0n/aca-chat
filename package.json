@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A messaging system is one of the most popular types of software there is. Skype, text, gtalk, slack, rocket chat. Let's build a web browser based chat app. Browsers cannot talk to each other directly. They need a server to be the middle man. ## Setup * fork, clone * npm init * npm i express body-parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanPhilippi/chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanPhilippi/chat-app/issues"
+  },
+  "homepage": "https://github.com/SeanPhilippi/chat-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
